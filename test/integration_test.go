@@ -2,12 +2,13 @@ package whatsup
 
 import (
 	"fmt"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
 	"math/rand"
 	"testing"
 	"time"
 	whatsup "whatsup/pkg"
+
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/metadata"
 )
 
 func randInt(min int, max int) int {
